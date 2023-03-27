@@ -50,7 +50,7 @@ def fake_signal(M: int, d: float, N: int, K: int):
 
     # Create received signal
     rec_signal = soi_matrix + noise
-    return rec_signal
+    return rec_signal 
 
 # Library Implementation: https://pypi.org/project/pyargus/
 
